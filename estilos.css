@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 1rem;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.semestre-button {
+  padding: 0.5rem;
+  background: white;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  text-align: center;
+}
+
+.semestre-button:hover {
+  background: #e1f5fe;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.ramo-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  background: #f0f0f0;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
